@@ -5,7 +5,7 @@ const db = require("../config/db")
 class Question{
   static CreateTable() {
     const sql = `
-      CREATE TABLE IF NOT EXISTS users (
+      CREATE TABLE IF NOT EXISTS quetions (
         id  INTEGER PRIMARY KEY,
         content TEXT
       )
